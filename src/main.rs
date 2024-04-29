@@ -7,7 +7,6 @@ pub fn App() -> impl IntoView {
     provide_meta_context();
 
     view! {
-
         <Stylesheet id="leptos" href="/style/output.css"/>
         <Router>
             <Routes>
